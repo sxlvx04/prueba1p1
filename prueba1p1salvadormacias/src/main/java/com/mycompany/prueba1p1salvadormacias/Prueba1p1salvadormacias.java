@@ -29,7 +29,7 @@ public class Prueba1p1salvadormacias {//inicio clase
                     String nom;
                     Scanner nombre = new Scanner(System.in);
                     System.out.println("Ingrese su nombre: ");
-                    nom = nombre.nextLine();
+                    nom = nombre.nextLine();//nombre
                     for (int i = 1; i <= rep; i++) {
                         System.out.println("!Hola mi nombre es " + nom + " y miren mi prueba!");//rango repeticion
                     }
